@@ -1,0 +1,16 @@
+.box {
+    padding: 0.3em;
+    background-color: #567895;
+  }
+  h1 {
+    background-color: black;
+    color: rgb(212, 24, 24);
+  }
+  h2 {
+    background-color: black;
+    color: white;
+  }
+
+  li {
+    color: blue
+  }
