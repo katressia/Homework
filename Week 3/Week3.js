@@ -33,7 +33,6 @@ function preparePizza() {
         return pizza;
       }
 
-
       greetCustomer(getPizzaOrder);
       getPizzaOrder(preparePizza);
       preparePizza(servePizza);
