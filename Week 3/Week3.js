@@ -35,7 +35,5 @@ function preparePizza() {
         return pizza;
       }
 
-greetCustomer();
-getPizzaOrder(greetCustomer);
-preparePizza(getPizzaOrder);
+
 servePizza(preparePizza);
