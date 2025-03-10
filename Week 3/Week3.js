@@ -1,12 +1,11 @@
 // eslint-disable-next-line no-undef
 const pizzaToppings = [pepperoni, sausage, cheese, chicken, pineapple];
-let size = (small, medium, large);
-let crust =(pan, thin, stuffed);
+
 
 function greetCustomer() {
   let greeting = "Welcome customers";
   for (let topping of pizzaToppings) {
-    greeting += ${topping},;
+    greeting += `${topping}`,;
   }
   console.log(greeting);
 }
@@ -36,4 +35,7 @@ function preparePizza() {
       }
 
 
-servePizza(preparePizza);
+      greetCustomer(getPizzaOrder);
+      getPizzaOrder(preparePizza);
+      preparePizza(servePizza);
+      
