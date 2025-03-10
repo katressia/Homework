@@ -5,7 +5,7 @@ const pizzaToppings = [pepperoni, sausage, cheese, chicken, pineapple];
 function greetCustomer() {
   let greeting = "Welcome customers";
   for (let topping of "pizzaToppings") {
-    greeting += `${topping}`,
+    greeting += `${topping}`
   }
   console.log(greeting);
 }
