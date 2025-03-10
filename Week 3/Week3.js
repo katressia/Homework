@@ -6,7 +6,7 @@ let crust =(pan, thin, stuffed);
 function greetCustomer() {
   let greeting = "Welcome customers";
   for (let topping of pizzaToppings) {
-    greeting += topping;
+    greeting += ${topping},;
   }
   console.log(greeting);
 }
@@ -20,9 +20,9 @@ function getPizzaOrder(size, crust, ...pizzaToppings) {
 
 function preparePizza() {
   const pizza = {
-    size: "12 inch",
-    crust: "pan",
-    toppings: ["Pepperoni", "sausage"]
+    size: size,
+    crust: crust,
+    toppings: toppings
     }
   console.log(
     `Cooking one large ${pizza.size}, ${pizza.crust}, ${pizza.toppings}`
