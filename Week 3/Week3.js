@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-undef
 const pizzaToppings = [pepperoni, sausage, cheese, chicken, pineapple];
-let size = (small, lmedium, large);
+let size = (small, medium, large);
 let crust =(pan, thin, stuffed);
 
 function greetCustomer() {
