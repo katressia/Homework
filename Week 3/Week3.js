@@ -1,11 +1,10 @@
 // eslint-disable-next-line no-undef
 const pizzaToppings = [pepperoni, sausage, cheese, chicken, pineapple];
 
-
 function greetCustomer() {
   let greeting = "Welcome customers";
-  for (let topping of pizzaToppings) {
-    greeting += `${topping}`,;
+  for (let topping of "pizzaToppings") {
+    greeting += `${topping}`
   }
   console.log(greeting);
 }
