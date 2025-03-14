@@ -14,3 +14,7 @@
   li {
     color: blue
   }
+
+  li :first-child {
+    color: violet;
+  }
