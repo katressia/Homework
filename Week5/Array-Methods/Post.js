@@ -359,7 +359,7 @@ const data = [
 const x = data.filter((data) => data.userId === 5);
 console.log(x);
 
-const x = data.filter((list) => list.userID === 5);
+const x = data.filter((list) => list.userId === 5);
 let newPair = data.map((list) => ({
   title: list.title,
   body: list.body,
